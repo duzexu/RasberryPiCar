@@ -12,6 +12,7 @@
 @interface ADSocketLoger ()<GCDAsyncSocketDelegate> {
     NSString *_host;
     NSString *_port;
+    ADCommand _command;
 }
 @property (strong, nonatomic) GCDAsyncSocket *clientSocket;
 @end
@@ -51,31 +52,35 @@
     [self connectWithHost:_host port:_port];
 }
 
-- (void)sendCommand:(ADCommond)commond {
+- (void)sendCommand:(ADCommand)command {
+    if (_command == command) {
+        return;
+    }
+    _command = command;
     NSString *data;
-    switch (commond) {
-        case ADCommondForward:
+    switch (command) {
+        case ADCommandForward:
             data = @"forward";
             break;
-        case ADCommondBackward:
+        case ADCommandBackward:
             data = @"backward";
             break;
-        case ADCommondLeft:
+        case ADCommandLeft:
             data = @"left";
             break;
-        case ADCommondRight:
+        case ADCommandRight:
             data = @"right";
             break;
-        case ADCommondTurnLeft:
+        case ADCommandTurnLeft:
             data = @"turn_left";
             break;
-        case ADCommondTurnRight:
+        case ADCommandTurnRight:
             data = @"turn_right";
             break;
-        case ADCommondStop:
+        case ADCommandStop:
             data = @"stop";
             break;
-        case ADCommondShutDown:
+        case ADCommandShutDown:
             data = @"shutdown";
             break;
         default:

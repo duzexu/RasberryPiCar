@@ -15,6 +15,7 @@
 {
     CGFloat _x;
     CGFloat _y;
+    CGPoint _point;
 }
 
 @property (strong, nonatomic) UIImageView *handleImageView;
@@ -98,6 +99,7 @@
     
     [self setHandlePositionWithLocation:location];
     
+    _point = location;
     [self rockerValueChanged];
 }
 
@@ -107,20 +109,23 @@
     
     [self setHandlePositionWithLocation:location];
     
-    [self rockerValueChanged];
+    if (fabs(location.x - _point.x) > 5 || fabs(location.y - _point.y) > 5) {
+        _point = location;
+        [self rockerValueChanged];
+    }
 }
 
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [self resetHandle];
-    
+    _point = CGPointZero;
     [self rockerValueChanged];
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [self resetHandle];
-    
+    _point = CGPointZero;
     [self rockerValueChanged];
 }
 

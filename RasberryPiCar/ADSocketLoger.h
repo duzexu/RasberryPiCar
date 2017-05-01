@@ -8,22 +8,22 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NS_ENUM(NSUInteger, ADCommond) {
-    ADCommondForward,
-    ADCommondBackward,
-    ADCommondLeft,
-    ADCommondRight,
-    ADCommondTurnLeft,
-    ADCommondTurnRight,
-    ADCommondStop,
-    ADCommondShutDown
+typedef NS_ENUM(NSUInteger, ADCommand) {
+    ADCommandForward = 1,
+    ADCommandBackward,
+    ADCommandLeft,
+    ADCommandRight,
+    ADCommandTurnLeft,
+    ADCommandTurnRight,
+    ADCommandStop,
+    ADCommandShutDown
 };
 
 @interface ADSocketLoger : NSObject
 
 + (instancetype)sharedLogger;
 - (void)connectWithHost:(NSString *)host port:(NSString *)port;
-- (void)sendCommand:(ADCommond)commond;
+- (void)sendCommand:(ADCommand)command;
 - (void)sendCommandData:(NSData *)commond;
 
 @end
