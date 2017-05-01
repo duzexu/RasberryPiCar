@@ -42,11 +42,15 @@
                             <outletCollection property="gestureRecognizers" destination="T18-zB-mvX" appends="YES" id="fSU-Ea-tGF"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="rockerView" destination="0r5-wg-yjG" id="jJv-DL-DFP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="T18-zB-mvX">
                     <connections>
                         <action selector="swipeAction:" destination="BYZ-38-t0r" id="bkA-Wk-0K8"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="u0m-r1-h23"/>
                     </connections>
                 </panGestureRecognizer>
             </objects>
