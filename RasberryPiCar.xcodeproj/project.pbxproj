@@ -13,10 +13,6 @@
 		309B91581EAFA54C002557B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309B91561EAFA54C002557B1 /* Main.storyboard */; };
 		309B915A1EAFA54C002557B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309B91591EAFA54C002557B1 /* Assets.xcassets */; };
 		309B915D1EAFA54C002557B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309B915B1EAFA54C002557B1 /* LaunchScreen.storyboard */; };
-		309B91701EAFA5DC002557B1 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 309B91681EAFA5DC002557B1 /* GCDAsyncSocket.m */; };
-		309B91711EAFA5DC002557B1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 309B916A1EAFA5DC002557B1 /* GCDAsyncUdpSocket.m */; };
-		309B91721EAFA5DC002557B1 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 309B916D1EAFA5DC002557B1 /* AsyncSocket.m */; };
-		309B91731EAFA5DC002557B1 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 309B916F1EAFA5DC002557B1 /* AsyncUdpSocket.m */; };
 		309B91761EAFA61C002557B1 /* ADSocketLoger.m in Sources */ = {isa = PBXBuildFile; fileRef = 309B91751EAFA61C002557B1 /* ADSocketLoger.m */; };
 		30D65F611EB235510083F011 /* ADRocker.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D65F601EB235510083F011 /* ADRocker.m */; };
 		30D65F641EB39B2E0083F011 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D65F631EB39B2E0083F011 /* MediaPlayer.framework */; };
@@ -31,6 +27,9 @@
 		30D65F791EB78D030083F011 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D65F781EB78D030083F011 /* libbz2.tbd */; };
 		30D65F7B1EB78D250083F011 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D65F7A1EB78D250083F011 /* VideoToolbox.framework */; };
 		30D65F7D1EB78D320083F011 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D65F7C1EB78D320083F011 /* QuartzCore.framework */; };
+		39B609D804EF0F2B559B52A5 /* Pods_RasberryPiCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C951F9497F850BEF591DC8 /* Pods_RasberryPiCar.framework */; };
+		BECA65311EBB2A700072CB1C /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BECA65301EBB2A700072CB1C /* libiconv.tbd */; };
+		BECA65331EBB2A850072CB1C /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BECA65321EBB2A850072CB1C /* libstdc++.6.0.9.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,14 +43,6 @@
 		309B91591EAFA54C002557B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		309B915C1EAFA54C002557B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		309B915E1EAFA54C002557B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		309B91671EAFA5DC002557B1 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		309B91681EAFA5DC002557B1 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
-		309B91691EAFA5DC002557B1 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		309B916A1EAFA5DC002557B1 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		309B916C1EAFA5DC002557B1 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
-		309B916D1EAFA5DC002557B1 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
-		309B916E1EAFA5DC002557B1 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
-		309B916F1EAFA5DC002557B1 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
 		309B91741EAFA61C002557B1 /* ADSocketLoger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSocketLoger.h; sourceTree = "<group>"; };
 		309B91751EAFA61C002557B1 /* ADSocketLoger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSocketLoger.m; sourceTree = "<group>"; };
 		30D65F5F1EB235510083F011 /* ADRocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADRocker.h; sourceTree = "<group>"; };
@@ -68,6 +59,11 @@
 		30D65F781EB78D030083F011 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		30D65F7A1EB78D250083F011 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		30D65F7C1EB78D320083F011 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		76C951F9497F850BEF591DC8 /* Pods_RasberryPiCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RasberryPiCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58AF70E1324A98C7D388C70 /* Pods-RasberryPiCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RasberryPiCar.release.xcconfig"; path = "Pods/Target Support Files/Pods-RasberryPiCar/Pods-RasberryPiCar.release.xcconfig"; sourceTree = "<group>"; };
+		BECA65301EBB2A700072CB1C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		BECA65321EBB2A850072CB1C /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		F2B5E6CDD9D3E48B94AD0DA1 /* Pods-RasberryPiCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RasberryPiCar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RasberryPiCar/Pods-RasberryPiCar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECA65331EBB2A850072CB1C /* libstdc++.6.0.9.tbd in Frameworks */,
+				BECA65311EBB2A700072CB1C /* libiconv.tbd in Frameworks */,
 				30D65F7D1EB78D320083F011 /* QuartzCore.framework in Frameworks */,
 				30D65F7B1EB78D250083F011 /* VideoToolbox.framework in Frameworks */,
 				30D65F791EB78D030083F011 /* libbz2.tbd in Frameworks */,
@@ -87,6 +85,7 @@
 				30D65F6C1EB3A9BC0083F011 /* AVFoundation.framework in Frameworks */,
 				30D65F6A1EB3A9B60083F011 /* AudioToolbox.framework in Frameworks */,
 				30D65F681EB3A9A60083F011 /* libz.tbd in Frameworks */,
+				39B609D804EF0F2B559B52A5 /* Pods_RasberryPiCar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +98,7 @@
 				309B914C1EAFA54C002557B1 /* RasberryPiCar */,
 				309B914B1EAFA54C002557B1 /* Products */,
 				30D65F621EB39B2E0083F011 /* Frameworks */,
+				6C2E207FBE64060318AACD78 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,7 +113,6 @@
 		309B914C1EAFA54C002557B1 /* RasberryPiCar */ = {
 			isa = PBXGroup;
 			children = (
-				309B91641EAFA5DC002557B1 /* CocoaAsyncSocket */,
 				309B91501EAFA54C002557B1 /* AppDelegate.h */,
 				309B91511EAFA54C002557B1 /* AppDelegate.m */,
 				30D65F5F1EB235510083F011 /* ADRocker.h */,
@@ -139,48 +138,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		309B91641EAFA5DC002557B1 /* CocoaAsyncSocket */ = {
-			isa = PBXGroup;
-			children = (
-				309B91651EAFA5DC002557B1 /* Source */,
-			);
-			path = CocoaAsyncSocket;
-			sourceTree = "<group>";
-		};
-		309B91651EAFA5DC002557B1 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				309B91661EAFA5DC002557B1 /* GCD */,
-				309B916B1EAFA5DC002557B1 /* RunLoop */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		309B91661EAFA5DC002557B1 /* GCD */ = {
-			isa = PBXGroup;
-			children = (
-				309B91671EAFA5DC002557B1 /* GCDAsyncSocket.h */,
-				309B91681EAFA5DC002557B1 /* GCDAsyncSocket.m */,
-				309B91691EAFA5DC002557B1 /* GCDAsyncUdpSocket.h */,
-				309B916A1EAFA5DC002557B1 /* GCDAsyncUdpSocket.m */,
-			);
-			path = GCD;
-			sourceTree = "<group>";
-		};
-		309B916B1EAFA5DC002557B1 /* RunLoop */ = {
-			isa = PBXGroup;
-			children = (
-				309B916C1EAFA5DC002557B1 /* AsyncSocket.h */,
-				309B916D1EAFA5DC002557B1 /* AsyncSocket.m */,
-				309B916E1EAFA5DC002557B1 /* AsyncUdpSocket.h */,
-				309B916F1EAFA5DC002557B1 /* AsyncUdpSocket.m */,
-			);
-			path = RunLoop;
-			sourceTree = "<group>";
-		};
 		30D65F621EB39B2E0083F011 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BECA65321EBB2A850072CB1C /* libstdc++.6.0.9.tbd */,
+				BECA65301EBB2A700072CB1C /* libiconv.tbd */,
 				30D65F7C1EB78D320083F011 /* QuartzCore.framework */,
 				30D65F7A1EB78D250083F011 /* VideoToolbox.framework */,
 				30D65F781EB78D030083F011 /* libbz2.tbd */,
@@ -193,8 +155,18 @@
 				30D65F691EB3A9B60083F011 /* AudioToolbox.framework */,
 				30D65F671EB3A9A60083F011 /* libz.tbd */,
 				30D65F631EB39B2E0083F011 /* MediaPlayer.framework */,
+				76C951F9497F850BEF591DC8 /* Pods_RasberryPiCar.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C2E207FBE64060318AACD78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2B5E6CDD9D3E48B94AD0DA1 /* Pods-RasberryPiCar.debug.xcconfig */,
+				B58AF70E1324A98C7D388C70 /* Pods-RasberryPiCar.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 309B91611EAFA54C002557B1 /* Build configuration list for PBXNativeTarget "RasberryPiCar" */;
 			buildPhases = (
+				34BFEF5427C13475C8A30780 /* [CP] Check Pods Manifest.lock */,
 				309B91461EAFA54C002557B1 /* Sources */,
 				309B91471EAFA54C002557B1 /* Frameworks */,
 				309B91481EAFA54C002557B1 /* Resources */,
+				BFA90C85C921972F52F1ECEE /* [CP] Embed Pods Frameworks */,
+				A47F5D13D2C1C3BEBFA7DB9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,20 +239,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34BFEF5427C13475C8A30780 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A47F5D13D2C1C3BEBFA7DB9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RasberryPiCar/Pods-RasberryPiCar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA90C85C921972F52F1ECEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RasberryPiCar/Pods-RasberryPiCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		309B91461EAFA54C002557B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				309B91701EAFA5DC002557B1 /* GCDAsyncSocket.m in Sources */,
 				309B91761EAFA61C002557B1 /* ADSocketLoger.m in Sources */,
 				30D65F611EB235510083F011 /* ADRocker.m in Sources */,
-				309B91711EAFA5DC002557B1 /* GCDAsyncUdpSocket.m in Sources */,
 				309B91551EAFA54C002557B1 /* ViewController.m in Sources */,
-				309B91721EAFA5DC002557B1 /* AsyncSocket.m in Sources */,
 				309B91521EAFA54C002557B1 /* AppDelegate.m in Sources */,
 				309B914F1EAFA54C002557B1 /* main.m in Sources */,
-				309B91731EAFA5DC002557B1 /* AsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,9 +412,11 @@
 		};
 		309B91621EAFA54C002557B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B5E6CDD9D3E48B94AD0DA1 /* Pods-RasberryPiCar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S6ZSA2VV9P;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RasberryPiCar/CocoaAsyncSocket",
@@ -410,9 +431,11 @@
 		};
 		309B91631EAFA54C002557B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58AF70E1324A98C7D388C70 /* Pods-RasberryPiCar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S6ZSA2VV9P;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RasberryPiCar/CocoaAsyncSocket",

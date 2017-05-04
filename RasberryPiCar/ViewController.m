@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "ADSocketLoger.h"
 #import "ADRocker.h"
-//#import <IJKMediaFramework/IJKMediaFramework.h>
+#import <MobileVLCKit/MobileVLCKit.h>
 
 @interface ViewController ()<ADRockerDelegate,UIGestureRecognizerDelegate> {
     CGPoint _point;
@@ -25,6 +25,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [[ADSocketLoger sharedLogger] connectWithHost:@"192.168.1.110" port:@"8080"];
+    VLCMediaPlayer *player = [[VLCMediaPlayer alloc] initWithOptions:nil];
+    player.drawable = self.view;
+    player.media = [VLCMedia mediaWithURL:[NSURL URLWithString:@"http://192.168.1.110:8090"]];
+    [player play];
 }
 
 - (IBAction)swipeAction:(UIPanGestureRecognizer *)sender {
